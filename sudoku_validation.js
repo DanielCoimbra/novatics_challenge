@@ -46,3 +46,11 @@ var box_check = (board)=>{
     }
     return true;
 };
+
+var lines_check = (board) => {
+    for(let i=0;i<9;i++){
+        if (!list_valid(board[i]))
+        return false;
+    }
+    return true;
+}
