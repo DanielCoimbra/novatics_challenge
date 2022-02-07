@@ -53,4 +53,16 @@ var lines_check = (board) => {
         return false;
     }
     return true;
-}
+};
+
+var column_check = (board) => {
+    let column;
+    for(var i=0;i<9;i++){
+        column=[]
+        for(var j=0;j<9;j++){
+            column.push(board[j][i]);
+        }
+        if(!list_valid(column)) return false;   
+    }
+    return true;
+};
