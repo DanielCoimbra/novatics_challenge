@@ -20,7 +20,7 @@ var reset_list = () => {
         7:false,
         8:false,
         9:false,
-    }
+    };
 }
 
 var box_bounds = [[0,0],[0,3],[0,6],[3,0],[3,3],[3,6],[6,0],[6,3],[6,6]];
@@ -65,4 +65,10 @@ var column_check = (board) => {
         if(!list_valid(column)) return false;   
     }
     return true;
+};
+
+var check_valid = (board) => {
+        
+    return lines_check(board) && box_check(board) && column_check(board);
+    
 };
