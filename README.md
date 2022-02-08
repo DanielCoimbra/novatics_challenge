@@ -23,8 +23,3 @@ Caso uma duplicata seja achada em qualquer destas competências, não é preciso
 ###### Testes
 
 Testes unitários foram realizados para confirmar que as soluções implementadas estão corretas.
-
-Os testes da validação do Sudoku correm sem problemas. Porém, nos testes da manipulação de lista, há `Assertion Error` para cada teste seguido de `npm ERR! code ELIFECYCLE`, que não pude resolver até o momento. De qualquer forma, o Log de testes mostra que o teste retorna o que deveria, então Task Failed Successfully :).
-
-![Debug Log.0](./imgs/debug_log.png "Log")
-![Debug Log.1](./imgs/debug_log2.png "Log2")
