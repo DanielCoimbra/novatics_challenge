@@ -89,5 +89,3 @@ describe('Sudoku Validation Test', () => {
         assert.equal(f.check_valid(board_duplicate_on_box), false);
     });
 });
-
-f.check_valid
