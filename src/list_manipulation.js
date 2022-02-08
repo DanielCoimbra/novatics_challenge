@@ -5,4 +5,4 @@ var remove_duplicate = (list) => {
     });
 }
 
-module.exports = { remove_duplicate }
+module.exports = { remove_duplicate };
