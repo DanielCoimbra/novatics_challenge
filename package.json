@@ -1,0 +1,26 @@
+{
+  "name": "novatics_challenge",
+  "version": "1.0.0",
+  "description": "##### Problema 1: Manipulando listas",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^9.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielCoimbra/novatics_challenge.git"
+  },
+  "author": "Daniel Coimbra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielCoimbra/novatics_challenge/issues"
+  },
+  "homepage": "https://github.com/DanielCoimbra/novatics_challenge#readme"
+}
